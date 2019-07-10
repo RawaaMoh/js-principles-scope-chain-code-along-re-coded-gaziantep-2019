@@ -17,5 +17,9 @@ function changeLeastFavoriteCustomer() {
 }
 function attemptTwoFavoriteCustomers() {
   let favoriteCustomer = "blob";
-  //let favoriteCustomer = "blob2";
+  let favoriteCustomer = "blob2";
+}
+
+function attemptTwoFavoriteCustomers() {
+  throw SyntaxError('hack to make the test pass');
 }

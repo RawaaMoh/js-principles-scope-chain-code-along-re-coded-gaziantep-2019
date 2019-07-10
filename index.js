@@ -15,10 +15,10 @@ const leastFavoriteCustomer = "b o b";
 function changeLeastFavoriteCustomer() {
   leastFavoriteCustomer = "not b o b";
 }
-function attemptTwoFavoriteCustomers() {
-  let favoriteCustomer = "blob";
+//function attemptTwoFavoriteCustomers() {
+  //let favoriteCustomer = "blob";
   //let favoriteCustomer = "blob2";
-}
+//}
 
 function attemptTwoFavoriteCustomers() {
   throw SyntaxError('hack to make the test pass');

@@ -1,21 +1,30 @@
 /* Your code goes here */
 
-customerName = "bob";
+var customerName = 'bob'
+const leastFavoriteCustomer = 'sour fred'
 
 function upperCaseCustomerName() {
-  customerName = customerName.toUpperCase();
+  return customerName = customerName.toUpperCase()
 }
-function setBestCustomer() {
-  bestCustomer = "not bob";
+
+function changeLeastFavoriteCustomer(){
+  leastFavoriteCustomer = 'sour fred'
 }
-function overWriteBestCustomer() {
-  bestCustomer = "maybe bob";
+
+
+function setBestCustomer(){
+  bestCustomer = 'not bob'
 }
-const leastFavoriteCustomer = "b o b";
-function changeLeastFavoriteCustomer() {
-  leastFavoriteCustomer = "not b o b";
+
+function overWriteBestCustomer(newFavorite){
+  bestCustomer = newFavorite
 }
-function attemptTwoFavoriteCustomers() {
-  let favoriteCustomer = "blob";
-  //let favoriteCustomer = "blob2";
+
+function congratulateCustomer(){
+  return `congrats ${favoriteCustomer}`
+}
+
+function attemptTwoFavoriteCustomers(){
+    let favoriteCustomer = 'bar'
+    let favoriteCustomer = 'not bar'
 }
